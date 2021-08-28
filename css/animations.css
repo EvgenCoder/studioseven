@@ -63,3 +63,19 @@
     }
 
 }
+
+.b-ball_bounce4 {
+  animation: moveeeee 7s linear alternate infinite;
+}
+ @keyframes moveeeee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    25% {
+        transform: translate3d(-5px, -7px, 12px);
+    }
+    75% {
+        transform: translate3d(-9px, 9px, -12px);
+    }
+
+}

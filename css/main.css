@@ -1,6 +1,13 @@
 .black{
 	color: #324150
 }
+svg{
+	max-width: 100%;
+}
+.button-link-home:hover {
+  animation-duration: 1s;
+  padding: 18px 42px;
+}
 
 .navbar-toggler:focus {
     text-decoration: none;
@@ -46,6 +53,9 @@
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
 	color: #FFFFFF;
+}
+.phone-call:hover{
+	background: #FBB157;
 }
 .head-block-content{
 	padding-top: 156px;
