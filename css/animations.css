@@ -1,0 +1,65 @@
+
+.b-ball_bounce {
+  animation: move 3s linear alternate infinite;
+}
+ @keyframes move {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    25% {
+        transform: translate3d(10px, 10px, 10px);
+    }
+    50% {
+        transform: translate3d(-10px, -10px, -10px);
+    }
+
+}
+
+
+.b-ball_bounce1 {
+  animation: movee 3s linear alternate infinite;
+}
+ @keyframes movee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    25% {
+        transform: translate3d(-7px, 15px, 10px);
+    }
+    50% {
+        transform: translate3d(7px, 9px, -16px);
+    }
+
+}
+
+.b-ball_bounce2 {
+  animation: moveee 5s linear alternate infinite;
+}
+ @keyframes moveee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    25% {
+        transform: translate3d(5px, -6px, 10px);
+    }
+    75% {
+        transform: translate3d(14px, 5px, -16px);
+    }
+
+}
+
+.b-ball_bounce3 {
+  animation: moveeee 7s linear alternate infinite;
+}
+ @keyframes moveeee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    25% {
+        transform: translate3d(5px, 16px, 4px);
+    }
+    75% {
+        transform: translate3d(14px, 5px, -16px);
+    }
+
+}
