@@ -4,6 +4,52 @@
 svg{
 	max-width: 100%;
 }
+.row-paces{
+	margin-top: 100px;
+}
+.info-block-card{
+	background: url(../img/11.jpeg)  !important;
+	background-size: cover !important;
+}
+.position-top{
+	margin-bottom: 30px;
+}
+.employee-1{
+	margin-top: 70px;
+}
+.employee-2{
+	margin-top: 140px;
+}
+.position-name{
+	font-family: IBM Plex Mono;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	/* or 150% */
+	color: #222C36;
+}
+.position-name-position{
+	font-family: IBM Plex Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	/* identical to box height, or 162% */
+	color: grey;
+}
+.card-info{
+	padding: 32px 40px;
+}
+.phone-caller{
+	font-family: IBM Plex Mono;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 34px;
+	/* identical to box height, or 170% */
+	color: #222C36;
+}
 .nav-link:hover{
 	color: #FBB157;
 }
@@ -79,7 +125,7 @@ svg{
 	margin-right: 5px;
 }
 .svg58{
-	margin-top: 100px;
+	margin-top: 50px;
 }
 .case-row{
 	margin-bottom: 60px;
@@ -129,7 +175,7 @@ svg{
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
-.phone-call:hover{
+.phone-call:hover, .button-all:hover{
 	background: #FBB157;
 }
 .head-block-content{
@@ -969,6 +1015,15 @@ img{
     margin-bottom: -40px;
 }
 @media screen and (max-width: 990px){
+	.employee-1{
+		margin-top: 40px;
+	}
+	.employee-2{
+		margin-top: 0px;
+	}
+	.info-block-card{
+		background-position-x: -209px !important;
+	}
 	.list-item-mini-tags{
 		display: flex;
 		padding: 9px 9px;
