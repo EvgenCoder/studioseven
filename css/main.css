@@ -175,7 +175,7 @@ svg{
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
-.phone-call:hover, .button-all:hover{
+.phone-call:hover{
 	background: #FBB157;
 }
 .head-block-content{
