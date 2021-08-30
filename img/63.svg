@@ -1,20 +1,5 @@
 <svg width="101" height="243" xmlns="http://www.w3.org/2000/svg">
-<style>
-    .b-ball_bounce {
-      animation: move 2s linear alternate infinite;
-    }
-     @keyframes move {
-        0% {
-            transform: translate3d(0, 0, 0);
-        }
-        15% {
-            transform: translate3d(0px, -50px, 0px);
-        }
-        60% {
-            transform: translate3d(0px, -10px, 0px);
-        }
-    }
-</style>
+
  <g>
   <title>background</title>
   <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
