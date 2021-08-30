@@ -1,6 +1,6 @@
 
 .b-ball_bounce {
-  animation: move 3s linear alternate infinite;
+  animation: move 2s linear alternate infinite;
 }
  @keyframes move {
     0% {

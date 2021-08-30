@@ -4,11 +4,86 @@
 svg{
 	max-width: 100%;
 }
+.nav-link:hover{
+	color: #FBB157;
+}
 .button-link-home:hover {
   animation-duration: 1s;
   padding: 18px 42px;
 }
-
+.news-place{
+	margin-bottom: 40px;
+}
+.news-tags{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.news-box{
+	margin-bottom: 120px;
+}
+.page-numb{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	/* identical to box height, or 143% */
+	text-transform: uppercase;
+	color: #222C36;
+	padding: 10px 17px;
+	background: #FFFFFF;
+	border: 1px solid #78859D;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.arrow-left{
+	margin-right: 20px;
+	cursor: pointer;
+}
+.arrow-right{
+	margin-left: 10px;
+	cursor: pointer;
+}
+.page-numb-active{
+	color: #fff;
+	background: #FBB157;
+}
+.tag-news-link{
+	font-family: IBM Plex Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	/* or 162% */
+	color: #222C36;
+}
+.tag-news-link-active{
+	color: #FBB157 !important;
+}
+.qty-news{
+	color: #78859D;
+}
+.news-tag{
+	font-family: IBM Plex Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	/* identical to box height, or 143% */
+	color: #222C36;
+	padding: 3px 9px;
+	background: #fff;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+.svg58{
+	margin-top: 100px;
+}
+.case-row{
+	margin-bottom: 60px;
+}
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;
@@ -40,7 +115,7 @@ svg{
 .navbar-nav{
 	margin-left: 76px;
 }
-.phone-call{
+.phone-call, .phone-call-pad{
 	border: 1px solid #FBB157;
 	box-sizing: border-box;
 	border-radius: 7px;
@@ -685,6 +760,8 @@ footer{
 .bread{
 	padding-top: 50px;
 	padding-bottom: 70px;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 .bread-dott{
 	margin-left: 10px;
@@ -829,7 +906,34 @@ img{
 .head-block4{
 	background: #364766;
 }
+.phone-call-pad{
+		display: none;
+	}
+.six-block-portfolio{
+	margin-top: 0;
+}
+.info-block-banners-portfolio {
+    width: 110%;
+    margin-left: -5%;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    padding-top: 39px !important;
+}
+.portfolio-row{
+	background: #fff;
+	margin-bottom: 40px;
+}
+.portfolio-right{
+	padding: 60px 90px 75px 60px;
+}
+.potfolio-image{
+	height: 100%;
+	object-fit: cover;
+}
 @media screen and (max-width: 1200px){
+	.portfolio-right {
+	    padding: 20px 30px 2px 20px;
+	}
 	.phone-call{
 		display: none
 	}
@@ -855,11 +959,41 @@ img{
 		display: flex;
 		justify-content: space-between;
 	}
-}
 
+}
+.head-block-content-portfolio{
+	padding-bottom: 0 !important;
+}
+.portfolio-image{
+	margin-top: -60px;
+    margin-bottom: -40px;
+}
 @media screen and (max-width: 990px){
+	.list-item-mini-tags{
+		display: flex;
+		padding: 9px 9px;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+	.list-item-product-item-tag{
+		margin-bottom: 0;
+		margin-right: 15px;
+	}
+	.svg63{
+		display: none;
+	}
+	.svg56{
+		display: none;
+	}
+	.phone-call-pad{
+		display: block;
+		margin-left: 200px;
+	}
+	.navbar-nav {
+	    margin-left: 0px;
+	}
 	.phone-call{
-		display: block
+		display: none;
 	}
 	h1{
 		font-family: Montserrat Alternates;
@@ -1071,6 +1205,26 @@ img{
 }
 
 @media screen and (max-width: 768px){
+	.list-item-mini-tags{
+		display: flex;
+		flex-direction: column;
+	}
+	.case-row2{
+		display: flex;
+    	flex-direction: column-reverse;
+	}
+	.info-block-banners-portfolio{
+		width: 100%;
+	    margin-left: 0%;
+	}
+	.portfolio-image {
+	    margin-top: 0px;
+	    margin-bottom: -40px;
+	}
+	.head-block-content-portfolio {
+	    padding-top: 50px !important;
+	    padding-bottom: 70px !important;
+	}
 	.price-item-sde {
 		display: block;
 	}
@@ -1093,7 +1247,7 @@ img{
 		margin: 0;
 	}
 
-	.phone-call{
+	.phone-call, .phone-call-pad{
 		display: none;
 	}
 	.head-block-content {
