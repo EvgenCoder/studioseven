@@ -2,7 +2,7 @@
 <svg width="513" height="328" xmlns="http://www.w3.org/2000/svg">
 <style>
     .b-ball_bounce {
-      animation: move 3s linear alternate infinite;
+      animation: move 2s linear alternate infinite;
     }
      @keyframes move {
         0% {
