@@ -770,6 +770,18 @@ background: #FBB157;
 	position: absolute;
 	margin-top: 38px;
     margin-left: -24px;
+      -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
+
+}
+.play:hover{
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	margin-top: 33px;
+    margin-left: -24px;
 }
 .reviews-two{
 	background: #FFF4E4;
