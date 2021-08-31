@@ -703,6 +703,10 @@ background: #FBB157;
 	border-radius: 10px;
 	color: #222C36;
 	padding: 13px 27px;
+	  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
 }
 .reviews-block{
 	margin-top: 120px;
