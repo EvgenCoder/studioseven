@@ -95,12 +95,16 @@ svg{
 	color: #FBB157;
 }
 .button-link-home{
-  animation-duration: 1s;
-  padding: 18px 42px !important;
+  	padding: 18px 42px !important;
+  	display: block;
+    width: fit-content;
 }
 .button-link-home:hover{
-  animation-duration: 1s;
-  padding: 20px 42px !important;
+	padding: 18px 42px !important;
+ 	margin-top: -5px;
+    display: block;
+    width: fit-content;
+    margin-bottom: 5px;
 }
 .news-place{
 	margin-bottom: 40px;
