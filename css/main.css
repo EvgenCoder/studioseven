@@ -17,13 +17,12 @@
 	width: 85% !important;
 }
 .right-3{
-	width: 85%;
-	margin-top: 50%;
-    margin-bottom: -7%;
+	width: 100%;
+    margin-bottom: -13%;
 }
 .flower-3{
 	width: 15%;
-	margin-top: 104%;
+	margin-top: 72%;
 }
 .right-4{
 	width: 85%;
@@ -415,7 +414,7 @@ a{
     padding-bottom: 40px;
 }
 .block-1{
-	width: 30%;
+	width: 33%;
 }
 .four-block{
 	max-width: 1500px;
@@ -1010,11 +1009,17 @@ img{
 	margin-top: 0;
 }
 .info-block-banners-portfolio {
-    width: 110%;
-    margin-left: -5%;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
+    width: 140% !important;
+    margin-left: -20% !important;
+    padding-left: 20% !important;
+    padding-right: 20% !important;
     padding-top: 39px !important;
+    max-width: 2000px !important;
+}
+.res {
+    padding-top: 0 !important;
+    padding-bottom: 50px !important;
+    padding-bottom: 35px;
 }
 .portfolio-row{
 	background: #fff;
@@ -1068,7 +1073,53 @@ img{
 .svg3{
 	margin-left: 50px;
 }
+@media screen and (max-width: 1800px){
+	.info-block-banners-portfolio {
+	    width: 115% !important;
+	    margin-left: -7.5% !important;
+	    padding-left: 7.5% !important;
+	    padding-right: 7.5% !important;
+	    padding-top: 39px !important;
+	    max-width: 2000px !important;
+	}
+}
+@media screen and (max-width: 1500px){
+	.info-block-banners-portfolio {
+	    width: 110% !important;
+	    margin-left: -5% !important;
+	    padding-left: 5% !important;
+	    padding-right: 5 !important;
+	    padding-top: 39px !important;
+	    max-width: 2000px !important;
+	}
+}
+@media screen and (max-width: 1500){
+	.info-block-banners-portfolio {
+	    width: 110% !important;
+	    margin-left: -5% !important;
+	    padding-left: 5% !important;
+	    padding-right: 5% !important;
+	    padding-top: 39px !important;
+	    max-width: 2000px !important;
+	}
+}
+@media screen and (max-width: 1400px){
+	.right-3 {
+	    width: 100%;
+	    margin-bottom: -33% !important;
+	}
+	.flower-3 {
+	    width: 15%;
+	    margin-top: 93% !important;
+	}
+	.svg25{
+		margin-top: 75px;
+	}
+}
 @media screen and (max-width: 1200px){
+	.svg25 {
+	    margin-top: 224px;
+	}
 	.only-desctop{
 		display: none !important;
 	}
@@ -1076,7 +1127,7 @@ img{
 		display: none !important;
 	}
 	.right-block-3{
-		margin-top: 7%;
+		margin-top: 15%;
 	}
 	.portfolio-right {
 	    padding: 20px 30px 2px 20px;
@@ -1360,13 +1411,19 @@ img{
 }
 
 @media screen and (max-width: 768px){
+	.svg25 {
+	    margin-top: 0px;
+	}
+	.right-block-3 {
+	    margin-top: -33% !important;
+	}
 	.svg3{
 		margin-left: 0;
 	}
 	.right-3 {
 	    width: 85%;
 	    margin-top: 0%;
-	    margin-bottom: -7%;
+	    margin-bottom: -46% !important;
 	}
 	.svg71{
 		width: 80%;
