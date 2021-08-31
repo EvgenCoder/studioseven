@@ -94,6 +94,9 @@ svg{
 .nav-link:focus, .nav-link:hover{
 	color: #FBB157;
 }
+.footer-link:hover{
+	color: #FBB157;
+}
 .button-link-home{
   	padding: 18px 42px !important;
   	display: block;
@@ -774,7 +777,6 @@ background: #FBB157;
   -moz-transition: all 0.3s ease;;
   -o-transition: all 0.3s ease;;
   transition: all 0.3s ease;
-
 }
 .play:hover{
 	width: 42px;
