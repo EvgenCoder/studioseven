@@ -92,7 +92,7 @@ svg{
 	/* identical to box height, or 170% */
 	color: #222C36;
 }
-.nav-link:hover{
+.nav-link:focus, .nav-link:hover{
 	color: #FBB157;
 }
 .button-link-home{
