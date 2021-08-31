@@ -42,7 +42,7 @@ jQuery.fn.extend({
   }
 })
 
-$('.flower').onAppearanceAddClass('animate__animated animate__bounce');
+$('.flower').onAppearanceAddClass('animate__animated animate__fadeInDown');
 
 
 
