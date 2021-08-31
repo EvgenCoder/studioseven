@@ -98,6 +98,10 @@ svg{
   	padding: 18px 42px !important;
   	display: block;
     width: fit-content;
+     -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;
 }
 .button-link-home:hover{
 	padding: 18px 42px !important;
