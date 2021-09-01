@@ -1,11 +1,20 @@
 .black{
 	color: #324150
 }
-
+.black-body{
+	background: #1d2f38 !important;
+}
+.head-block-3{
+	background: #1d2f38 !important;
+}
+.svg72{
+	margin-left: -40px;
+}
 .flower-1{
 	margin-top: 73%;
 	width: 15%;
 }
+
 .flower-2{
 	width: 25%;
 	margin-top: 29%;
@@ -15,6 +24,9 @@
 }
 .rigth-1{
 	width: 85% !important;
+}
+.contacts-info{
+	background: #E8F7FE
 }
 .right-3{
 	width: 100%;
@@ -682,6 +694,7 @@ button.button-link-home:hover{
 	margin-top: 70px;
 	background: #E8F7FE;
 }
+
 .form-news{
 	background: #364766;
 	border-radius: 5px;
@@ -1161,7 +1174,8 @@ img{
 	    max-width: 2000px !important;
 	}
 }
-@media screen and (max-width: 1400px){
+
+@media screen and (max-width: 1450px){
 	.right-3 {
 	    width: 100%;
 	    margin-bottom: -49% !important;
@@ -1174,7 +1188,8 @@ img{
 		margin-top: 75px;
 	}
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1250px){
+
 	.svg25 {
 	    margin-top: 224px;
 	}
@@ -1185,7 +1200,7 @@ img{
 		display: none !important;
 	}
 	.right-block-3{
-		margin-top: 15%;
+		margin-top: 22%;
 	}
 	.portfolio-right {
 	    padding: 20px 30px 2px 20px;
@@ -1652,3 +1667,10 @@ img{
 		width: 75%;
 	}
 }
+
+@media screen and (min-width: 1400px){
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+   		max-width: 1220px;
+}
+
+
