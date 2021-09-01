@@ -18,10 +18,10 @@
 }
 .right-3{
 	width: 100%;
-    margin-bottom: -22%;
+    margin-bottom: -30%;
 }
 .flower-3{
-	width: 20%;
+	width: 27%;
 	margin-top: 72%;
 }
 .right-4{
@@ -1155,10 +1155,10 @@ img{
 @media screen and (max-width: 1400px){
 	.right-3 {
 	    width: 100%;
-	    margin-bottom: -33% !important;
+	    margin-bottom: -49% !important;
 	}
 	.flower-3 {
-	    width: 15%;
+	    width: 27%;
 	    margin-top: 93% !important;
 	}
 	.svg25{
@@ -1471,7 +1471,7 @@ img{
 	}
 	.right-3 {
 	    width: 85%;
-	    margin-top: 0%;
+	    margin-top:11%;
 	    margin-bottom: -46% !important;
 	}
 	.svg71{
