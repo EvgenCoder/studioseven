@@ -409,6 +409,18 @@ a{
 	transform: rotate(0.19deg);
 	white-space: nowrap;
 }
+.link-more:hover{
+	display: block;
+	font-family: IBM Plex Mono;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	/* or 162% */
+	color: #FBB157;
+	transform: rotate(0.19deg);
+	white-space: nowrap;
+}
 .list-item-box-ex{
 	width: 37%;
 }
