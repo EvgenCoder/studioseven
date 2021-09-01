@@ -98,7 +98,7 @@ svg{
 	color: #FBB157;
 }
 .button-link-home{
-  	padding: 18px 42px !important;
+  	padding: 12px 42px !important;
   	display: block;
     width: fit-content;
      -webkit-transition: all 0.3s ease;;
@@ -107,7 +107,7 @@ svg{
   transition: all 0.3s ease;
 }
 .button-link-home:hover{
-	padding: 18px 42px !important;
+	padding: 12px 42px !important;
  	margin-top: -5px;
     display: block;
     width: fit-content;
