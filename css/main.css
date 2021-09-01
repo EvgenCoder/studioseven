@@ -666,7 +666,8 @@ background: #FBB157;
 	text-align: right;
 }
 button.button-link-home:hover{
-	margin-bottom: 15px;
+	display: inline;
+	margin-bottom: 5px;
 }
 .news-two{
 	margin-top: 70px;
