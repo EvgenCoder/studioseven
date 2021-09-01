@@ -665,9 +665,18 @@ background: #FBB157;
 	color: #78859D;
 	text-align: right;
 }
+button.button-link-home{
+    display: inherit;
+}
 button.button-link-home:hover{
-	display: inline;
 	margin-bottom: 5px;
+    display: inherit;
+	margin-top: -5px;
+	margin-bottom: 5px;
+	-webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
 }
 .news-two{
 	margin-top: 70px;
