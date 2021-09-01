@@ -101,6 +101,7 @@ svg{
   	padding: 12px 42px !important;
   	display: block;
     width: fit-content;
+    max-width: -moz-max-content;
      -webkit-transition: all 0.3s ease;;
   -moz-transition: all 0.3s ease;;
   -o-transition: all 0.3s ease;;
