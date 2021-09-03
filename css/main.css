@@ -50,7 +50,7 @@
 	margin-top: 60%;
 }
 .flower-7{
-	margin-top: 43%;
+	margin-top: 60%;
 	width: 25%;
 	margin-left: -10%;
 }
@@ -66,6 +66,7 @@ svg{
 .info-block-card{
 	background: url(../img/11.jpeg)  !important;
 	background-size: cover !important;
+	margin-bottom: 80px !important;
 }
 .position-top{
 	margin-bottom: 30px;
@@ -1115,10 +1116,26 @@ img{
 	width: 20%;
 }
 .svg75{
-	width: 85%;
+		width: 100%;
+		margin-bottom: -20% !important;
+	}
+.flower-8{
+	margin-bottom: -76%;
+}
+@media screen and (max-width: 1400px){
+	.svg75{
+		width: 100%;
+		margin-bottom: -60% !important;
+	}
+	.flower-8{
+		margin-bottom: -116%;
+	}
 }
 .flower-7{
-	width: 15%;
+	width: 18%;
+}
+.flower-8{
+	margin-top: 0 !important;
 }
 .dropdown-menu{
 	background: #E8F7FE;
@@ -1191,6 +1208,14 @@ img{
 		margin-top: 75px;
 	}
 }
+@media screen and (max-width: 1200px){
+	.svg75{
+		margin-bottom: -140% !important;
+	}
+	.flower-8{
+		margin-bottom: -195%;
+	}
+}
 @media screen and (max-width: 1250px){
 
 	.svg25 {
@@ -1243,6 +1268,12 @@ img{
     margin-bottom: -40px;
 }
 @media screen and (max-width: 990px){
+	.svg75{
+		margin-bottom: -14% !important;
+	}
+	.flower-8{
+		margin-bottom: -71%;
+	}
 	.svg73{
 		margin-left: 0px;
 	}
@@ -1487,6 +1518,12 @@ img{
 }
 
 @media screen and (max-width: 768px){
+	.flower-8{
+		margin-bottom: -51%;
+	}
+	.svg75{
+		width: 85%;
+	}
 	.svg25 {
 	    margin-top: 0px;
 	}
