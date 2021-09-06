@@ -1721,7 +1721,11 @@ img{
 		width: 75%;
 	}
 }
-
+@media screen and (max-width: 450px){
+	.flower-dn-mobile{
+		display: none;
+	}
+}
 
 
 
