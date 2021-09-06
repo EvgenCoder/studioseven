@@ -1576,6 +1576,8 @@ img{
 	.info-block-banners-portfolio{
 		width: 100%;
 	    margin-left: 0%;
+	    max-width: 100% !important;
+	    margin-left: 0 !important;
 	}
 	.portfolio-image {
 	    margin-top: 0px;
