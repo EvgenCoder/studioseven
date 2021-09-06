@@ -57,6 +57,12 @@
 .right7{
 	width: 75%;
 }
+.info-block-5{
+	background: #FFF5F0 !important;
+}
+.info-block-6{
+	background: #FFF4E4 !important;
+}
 svg{
 	max-width: 100%;
 }
@@ -895,6 +901,9 @@ footer{
 .bottom-footer{
 	padding-top: 30px;
 }
+.animate__fadeIn{
+	opacity: 0.7 !important;
+}
 .link-botton-footer{
 	font-family: IBM Plex Mono;
 	font-style: normal;
@@ -973,9 +982,11 @@ footer{
 }
 .list-item-product-list{
 	margin-right: 15px;
+	margin-bottom: auto;
+    margin-top: 5px;
 }
 .list-item-product-item{
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 
 }
 .list-item-product2{
@@ -1125,17 +1136,17 @@ img{
 @media screen and (max-width: 1400px){
 	.svg75{
 		width: 100%;
-		margin-bottom: -60% !important;
+		margin-bottom: -30% !important;
 	}
 	.flower-8{
-		margin-bottom: -116%;
+		margin-bottom: -21% !important;
 	}
 }
 .flower-7{
 	width: 18%;
 }
 .flower-8{
-	margin-top: 0 !important;
+	margin-bottom: -18%;
 }
 .dropdown-menu{
 	background: #E8F7FE;
@@ -1210,10 +1221,10 @@ img{
 }
 @media screen and (max-width: 1200px){
 	.svg75{
-		margin-bottom: -140% !important;
+		margin-bottom: -75% !important;
 	}
 	.flower-8{
-		margin-bottom: -195%;
+		margin-bottom: -49% !important;
 	}
 }
 @media screen and (max-width: 1250px){
@@ -1268,6 +1279,9 @@ img{
     margin-bottom: -40px;
 }
 @media screen and (max-width: 990px){
+	.delete-md{
+		display: none;
+	}
 	.svg75{
 		margin-bottom: -14% !important;
 	}
